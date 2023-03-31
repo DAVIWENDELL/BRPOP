@@ -1,0 +1,83 @@
+/*--------------------------------CENTRALIZAÇÃO DO SITE----------------------------------------*/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+/*----------------FUNDO DO SITE-------------------------------------------------*/
+
+.fundocor{
+    background-color: #fcfcfc;
+}
+
+/*-----------------MENU PRICIPAL DO SITE----------------------------------------*/
+
+.menu-principal {
+    width: 100%;
+    background-color:#264464;
+    height: 85px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+} 
+a:active {
+    text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+
+/*--------------------LOGO DO SITE BRPOP----------------------------------------*/
+
+.logo{
+    float:left;
+    width: 11%;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+}
+
+/*------------------REDES SOCIAIS DO SITE---------------------------------------*/
+
+.redes-sociais ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1%;
+}
+.redes-sociais {
+    margin-top: 1%;
+    width: 23%;
+    float: right;
+}
+
+/*-------------------BARRA DE MENU DO SITE----------------------------------------*/
+
+.header-2 {
+    padding-top: 0%;
+    background-color: #fbff00;
+    width: 100%;
+    border-top: 5px solid #264464;
+    border-bottom: 5px solid #fbff00;
+}
+.header-2 ul li {
+    padding-top: 1%;
+    list-style: none;
+    display: inline-block;
+    margin-left: 12%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

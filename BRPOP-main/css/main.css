@@ -14,7 +14,7 @@ main {
 /*----------------FUNDO DO SITE-------------------------------------------------*/
 
 .fundocor{
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 
 /*-----------------MENU PRICIPAL DO SITE----------------------------------------*/
@@ -25,6 +25,13 @@ main {
     height: 85px;
 }
 
+/*-------------------MENU SEGUNDÁRIO---------------------------------------------*/
+.menu nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 211, 46);
+    transition: 0.10;
+  
+}
 /*------------------------------------------------------------------------------*/
 
 a:link {
@@ -80,4 +87,47 @@ a:hover {
     font-size: 20px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.home-pag {
+    position: absolute;
+    width: 549px;
+    height: 308px;
+    left: 734px;
+    top: 334px; 
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.retangulo{
+    position: absolute;
+    width: 645px;
+    height: 477px;
+    left: 69px;
+    top: 274px;
+
+    background: #EBFF00;
+    border-radius: 27px;
+}
+
+.retangulo p {
+    position: absolute;
+    width: 575px;
+    height: 439px;
+    left: 5%;
+    top: 2%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+
+}
+
+.texto-cor {
+    color: #04c901;
 }

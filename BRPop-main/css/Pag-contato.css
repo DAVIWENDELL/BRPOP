@@ -1,0 +1,236 @@
+/*--------------------------------AJUSTE DO BODY NO HTML----------------------------------------*/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    padding: 0px!important;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+
+}
+
+/*----------------FUNDO DO SITE-------------------------------------------------*/
+
+.fundocor{
+    background-color: #fcfcfc;
+}
+
+/*-----------------MENU PRICIPAL DO SITE----------------------------------------*/
+
+.menu-principal {
+    width: 100%;
+    background-color:#264464;
+    height: 85px;
+}
+
+/*--------------------LOGO DO SITE BRPOP----------------------------------------*/
+
+.logo{
+    float:left;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 14%;
+    
+}
+
+/*------------------REDES SOCIAIS DO SITE---------------------------------------*/
+
+.redes-sociais ul li {
+    float: left;
+    list-style: none;
+    margin-right: 8%;
+}
+.redes-sociais {
+    margin-top: 1%;
+    width: 33%;
+    float: right;
+}
+
+/*-------------------BARRA DE MENU DE NAVEGAÇÃO----------------------------------------*/
+
+.header-2 {
+    padding-top: 0%;
+    background-color: rgba(227, 224, 224, 0.864);
+    width: 100%;
+    border-top: 5px solid #264464bc;
+    border-bottom: 5px solid #264464bc;
+}
+.header-2 ul li {
+    color: #555555e8;
+    padding-top: 1%;
+    list-style: none;
+    display: inline-block;
+    margin-left: 14.2%;
+}
+.header-2 ul li a{
+    color: #555555e8;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*----------------------BARRA DE MENU DE NAVEGAÇÃO COM ANIMAÇÃO----------------------------*/
+ .menu nav ul li a:hover {
+    color: #2600ffbc;
+ }
+
+/*----------------------------------------TEXTOS DA PAGINA CONTATO----------------------------------------*/
+
+.texto {
+    position: relative;
+    width: 764px;
+    height: 58px;
+    left: 500px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.texto2 {
+    position: relative;
+    width: 1065px;
+    height: 367px;
+    left: 400px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.texto3 {
+    position: relative;
+    width: 1026px;
+    height: 129px;
+    left: 400px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+/*-------------------------------------------------------------------*/
+
+.icone{
+    position: relative;
+    width: 77px;
+    height: 63px;
+    left: 1300px;
+    top: 315px;
+}
+
+.icone2 {
+    position: relative;
+    width: 80px;
+    height: 63px;
+    left: 700px;
+    top: 240px;
+
+}
+
+.icone3 {
+    position: relative;
+    width: 87px;
+    height: 63px;
+    left: 337px;
+    top: 180px; 
+}
+
+.icone4 {
+    position: relative;
+    width: 95px;
+    height: 66px;
+    left: 1000px;
+    top: 120px; 
+}
+
+/*---------------------------------------------------------------------*/
+
+.texto5 {
+    position: relative;
+    width: 207px;
+    height: 29px;
+    left: 450px;
+    top: 0px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.texto6 {
+    position: relative;
+    width: 207px;
+    height: 29px;
+    left: 800px;
+    top: -50px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.texto4 {
+    position: relative;
+    width: 207px;
+    height: 29px;
+    left: 1100px;
+    top: 60px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.texto7 {
+    position: relative;
+    width: 207px;
+    height: 29px;
+    left: 1390px;
+    top: -97px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+

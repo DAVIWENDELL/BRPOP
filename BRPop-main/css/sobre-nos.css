@@ -78,89 +78,49 @@ main {
     font-weight: bold;
 }
 
-/*------------------CONTEÚDO DO SITE-------------------------------------*/ 
+/*----------------------------titulo 1 e 2-------------------------------------------------*/
 
-.home {
-    height: 480px;
-    width: 100%;
-    padding: 100px 0 10px 0;
+.titulo {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    width: 572px;
+    height: 71px;
+    margin-left: 300px;
+    margin-top: 60px;
+
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
 }
 
-.container {
-    display: inline-block;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.home-titulo {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: white;
-}
-
-.home-texto {
+.titulo2 {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
-    background: #264464;
-    border-radius: 20px;
-    padding: 40px 24px 32px;
-    position: relative;
-    width: 35%;
-    left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin-top: -30px;
+    width: 857px;
+    height: 495px;
+    margin-left: 105px;
+    margin-top: 100px;
+
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
 }
 
-.home-texto h1 {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/*--------------------------------imagem de um motorista-------------------------------------------------*/
 
-.containerdosbotoes {
+.img-motorista img{
     display: flex;
-    gap: 8px;
-    height: 80px;
-    margin-left: 130px;
-}
+    width: 600px;
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: -500px;
 
-.botao-google-play {
-    height: 100%;
-    width:  100%;
-    margin-top: 5px;
-}
-
-.botao-apple-store{
-    height: 100%;
-    width: 100%;
-    margin-top: 5px;
-}
-
-.carrossel {
-    display: flex;
-    box-shadow: 2px 2px 4px black;
-    overflow: visible;
-    max-width: 540px;
-    width: 539px;
-    height: 382px;
-    margin-left: 850px;
-    margin-top: -418px;
-}
-
-.container-carrossell {
-    display: flex;
-    transition: transform 0.5 ease-in-out;
-    transform: translateX(0);
-}
-
-.container-carrossell img{
-    object-fit: cover;
-    width: 539px;
-    height: 382px;
+    border-radius: 35px;
 }
